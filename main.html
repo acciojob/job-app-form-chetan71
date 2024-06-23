@@ -17,14 +17,17 @@
 		</div>
 		<label for="email">Email </label>
 		<div>
-			<input type="email" name="email" id="email" reqired> 
+			<input type="email" name="email" id="email" required> 
 		</div>
-		<label for="gender">Gender </label>
 		<div>
-			<input type="radio" name="gender" required>
+		<label for="gender">Gender </label>
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="female" required>
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="male" required>
 		</div>
 		<label for="laptop">Laptop Brands </label>
-		<select id="laptop">
+		<select name="laptopBrands" id="laptop">
 			<option >Apple</option>
 			<option >Asus</option>
 			<option >HP</option>
@@ -46,7 +49,7 @@
 			<input type="url" name="portfolio" id="portfolio" >
 		</div>
 		<div>
-			<input type="button" value="Submit Button" >
+			<input type="submit" value="Submit Button" >
 		</div>
 		
 	</form>
